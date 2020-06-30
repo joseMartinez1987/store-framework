@@ -4,7 +4,7 @@
     font-weight: normal;
     border: 2px solid black;
     padding: 24px;
-    color: grey;
+    color: black;
     font-weight: bold;
 }
 
@@ -20,13 +20,13 @@
     border: transparent;
 }
 
-.infoCardContainer--vintage {
-    background-color: #EDCFD1;
-}
 .infoCardContainer {
     max-width: 1260px;
     margin: 0 auto;
     padding: 0;
+}
+.infoCardContainer--vintage {
+    background-color: #EDCFD1;
 }
 
 .infoCardContainer--metal {
