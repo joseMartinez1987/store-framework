@@ -28,14 +28,14 @@
     "maxWidth":"100%"
   }
 },
+"rich-text#mobile": {
+  "props": {
+    "text": "### Your Coffee, Your Way \n #### New Coffee Makers Collection",
+    "textPosition": "CENTER",
+    "textAlignment": "CENTER"
+  }
+},
 
-  "rich-text#mobile": {
-    "props": {
-      "text": "### Your Coffee, Your Way \n#### New Coffee Makers Collection",
-      "textPosition": "CENTER",
-      "textAlignment": "CENTER"
-    }
-  },
   "image#mobile": {
     "props": {
       "src": "https://appliancetheme.vteximg.com.br/arquivos/Responsive-Image-Mobile.jpg?q=1",
