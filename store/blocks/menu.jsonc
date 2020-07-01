@@ -9,9 +9,9 @@
       "orientation": "horizontal"
     }
   },
-  "vtex.menu@2.x:submenu#major": {
-    "children": ["vtex.menu@2.x:menu#major"]
-  },
+  // "vtex.menu@2.x:submenu#major": {
+  //   "children": ["vtex.menu@2.x:menu#major"]
+  // },
   "vtex.menu@2.x:menu#major": {
     "props": {
       "orientation": "vertical"
@@ -39,8 +39,5 @@
       "orientation": "vertical"
     },
     "children": ["menu-item#cameras", "menu-item#laptops", "menu-item#tvs"]
-  },
-  "menu-item#major-appliances": {
-    "children": ["vtex.menu@2.x:submenu#major"]
   }
 }
