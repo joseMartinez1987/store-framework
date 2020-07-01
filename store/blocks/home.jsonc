@@ -6,7 +6,7 @@
     ]
   },
   "responsive-layout.desktop#desktop":{
-    "children":["rich-text#desktop","image#desktop"]
+    "children":["rich-text#desktop","image#desktop","rich-text#home1"]
   },
   "responsive-layout.mobile#mobile":{
     "children":["rich-text#mobile","image#mobile"]
@@ -26,6 +26,13 @@
     } ,
     "alt": "Coffee Makers Collection",
     "maxWidth":"100%"
+  }
+},
+"rich-text#home1" : {
+  "props": {
+    "text": "# My title h1 \n Insert a paragraph here \n ## My title h2 \n Insert the second paragraph here \n Include a list here \n - Item 1 \n - Item 2 \n - Item3",
+    "textPosition": "LEFT",
+    "textAlignment": "LEFT"
   }
 },
 "rich-text#mobile": {
