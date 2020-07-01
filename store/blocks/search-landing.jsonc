@@ -1,0 +1,32 @@
+{
+    "store.custom#landing": { 
+      "blocks": [
+        "image#landingbanner", 
+        "search-result-layout.customQuery"
+      ],
+      "props": {
+          "context": {
+            "skusFilter": "FIRST_AVAILABLE",
+            "simulationBehavior": "skip"
+          }
+      }
+    },
+    "image#landingbanner": {
+        "props": {
+            "src": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fokdiario.com%2Fcuriosidades%2Fquien-fue-guy-fawkes-3346308&psig=AOvVaw39-UO1_8Yu5rY52D2uiSBV&ust=1593714786618000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLDih7PYrOoCFQAAAAAdAAAAABAD",
+            "minWidth": "100%",
+            "height": 100
+        }
+    },
+    "search-result-layout.customQuery": {
+        "blocks": ["search-result-layout.desktop"],
+        "props": {
+          "querySchema": {
+            "orderByField": "OrderByReleaseDateDESC",
+            "hideUnavailableItems": true,
+            "maxItemsPerPage": 8,
+            "queryField": "Blue Top Retro Camera"
+          }
+        }
+      }
+  }
