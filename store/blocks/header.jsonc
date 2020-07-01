@@ -2,7 +2,8 @@
     "header": {
       "blocks": [
         "header-layout.desktop",
-        "header-layout.mobile"
+        "header-layout.mobile",
+        "header-row#menu"
       ]
     },
     "header.full": {
@@ -49,6 +50,7 @@
       },
       "header-row#main-mobile": {
         "children": [
+          "drawer",
           "logo",
           "header-spacer",
           "minicart",
@@ -86,5 +88,12 @@
             "text": "**Free Shipping on orders over $50**",
             "textPosition": "CENTER"
           }
+      },
+      "header-row#menu": {
+        "children": [
+            "header-spacer",
+            "vtex.menu@2.x:menu#categories",
+            "header-spacer"
+          ]
       }
   }
