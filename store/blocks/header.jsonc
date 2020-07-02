@@ -2,8 +2,7 @@
     "header": {
       "blocks": [
         "header-layout.desktop",
-        "header-layout.mobile",
-        "header-row#menu"
+        "header-layout.mobile"
       ]
     },
     "header.full": {
@@ -16,14 +15,15 @@
     "header-layout.desktop": {
       "children": [
         "header-row#notification",
-        "header-row#main"
+        "header-row#main",
+        "header-row#menu"
       ]
     },
   
     "header-layout.mobile": {
       "children": [
-        "header-row#notification",
         "header-row#main-mobile",
+        "header-row#notification",
         "header-row#search"
       ]
     },
